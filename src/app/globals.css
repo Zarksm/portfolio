@@ -6,6 +6,15 @@
     @apply transition-all duration-500 ease-in-out hover:text-green-500;
 }
 
+.animate{
+    @apply transition-all duration-300 ease-linear;
+}
+
 .container {
     @apply px-20;
 }
+
+.group-hover span {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+  
